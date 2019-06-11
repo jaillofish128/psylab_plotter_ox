@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HistoWindow</class>
+ <widget class="QDialog" name="HistoWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>471</width>
+    <height>521</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Oxygenation Histogram</string>
+  </property>
+  <property name="windowIcon">
+   <iconset theme="normal"/>
+  </property>
+  <widget class="QCustomPlot" name="OxHisto" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>450</width>
+     <height>450</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_H">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>470</y>
+     <width>86</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Histogram</string>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QCustomPlot</class>
+   <extends>QWidget</extends>
+   <header>qcustomplot.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
