@@ -131,4 +131,7 @@
       <Filter>Translation Files</Filter>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeFile.txt" />
+  </ItemGroup>
 </Project>
