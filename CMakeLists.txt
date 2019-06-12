@@ -1,3 +1,5 @@
+cmake_minimum_required(VERSION 3.10)
+
 project(BloodOxy_draw)
 
 set(CMAKE_CXX_STANDARD 11)
@@ -13,26 +15,26 @@ set(CMAKE_AUTOUIC ON)
 
 set(SOURCES
     about.cpp
-	darw.cpp
-	histowindow.cpp
-	libpsyclass.cpp
-	main.cpp
+    darw.cpp
+    histowindow.cpp
+    libpsyclass.cpp
+    main.cpp
     mainwindow.cpp
     odi.cpp
     qcustomplot.cpp
 )
-set(HEADERS 
+set(HEADERS
     about.h
-	darw.hpp
-	histwondow.h
-	libpsyclass.h
-	mainwindow.h
-	odi.hpp
-	qcustomplot.h)
-set(UI 
+    darw.hpp
+    histowindow.h
+    libpsyclass.h
+    mainwindow.h
+    odi.hpp
+    qcustomplot.h)
+set(UI
     about.ui
-	histowindow.ui
-	mainwindow.ui)
+    histowindow.ui
+    mainwindow.ui)
 
 add_executable(BloodOxy_draw ${SOURCES} ${HEADERS} ${UI})
 qt5_use_modules(BloodOxy_draw Core Network PrintSupport Widgets)
