@@ -624,7 +624,7 @@ void MainWindow::on_pushButton_clipper_released()
     else
     {QMessageBox::information(this, tr("String not coppied"), tr("No loaded data"));}
 }
-
+/*
 void MainWindow::on_action_zh_tw_triggered()
 {
     ui->actionEnglish_en_US->setChecked(false);
@@ -645,3 +645,4 @@ void MainWindow::on_actionEnglish_en_US_triggered()
     qApp->installTranslator(&Trans);
     ui->retranslateUi(this);
 }
+*/

@@ -739,7 +739,7 @@
      <x>0</x>
      <y>0</y>
      <width>1200</width>
-     <height>21</height>
+     <height>22</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuHRV">
@@ -753,17 +753,9 @@
      <addaction name="action120_126_32_35"/>
      <addaction name="actionxenon_ym_edu_tw"/>
     </widget>
-    <widget class="QMenu" name="menuLanguage">
-     <property name="title">
-      <string>Language</string>
-     </property>
-     <addaction name="actionEnglish_en_US"/>
-     <addaction name="action_zh_tw"/>
-    </widget>
     <addaction name="separator"/>
     <addaction name="actionReset_plot"/>
     <addaction name="menuServer"/>
-    <addaction name="menuLanguage"/>
     <addaction name="actionExit"/>
    </widget>
    <widget class="QMenu" name="menuAbout">

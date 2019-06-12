@@ -59,9 +59,9 @@ private slots:
 
     void on_pushButton_clipper_released();
 
-    void on_action_zh_tw_triggered();
+//    void on_action_zh_tw_triggered();
 
-    void on_actionEnglish_en_US_triggered();
+//    void on_actionEnglish_en_US_triggered();
 
 private:
     Ui::MainWindow *ui;
